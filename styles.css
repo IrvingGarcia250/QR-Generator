@@ -3,3 +3,15 @@ body{
     text-align: center;
     margin: auto;
 }
+h1{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: blueviolet;
+}
+
+#qr-code{
+
+    align-items: center;
+    text-align: center;
+}
