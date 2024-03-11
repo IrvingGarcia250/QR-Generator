@@ -9,18 +9,17 @@
 </head>
 
 <body>
-    <!-- Darle stilo al H1 y al input -->
-        <h1>Generador de QR</h1>
-        <input type="text" class="qr-text" placeholder="Ingresa el link">
-        <br><br>
-        <!-- Centrar el div -->
+    <!-- Darle estilo al H1 y al input -->
+    <h1>Generador de QR</h1>
+    <label for="qr-input">Ingresa el link:</label>
+    <input type="text" id="qr-input" class="qr-text" placeholder="https://ejemplo.com">
+    <br><br>
+    <!-- Centrar el div -->
     <div id="qr-code"></div>
 
-
-
-
-   
+    <!-- Scripts al final del cuerpo -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="app.js"></script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-<script src="app.js"></script>
+
 </html>
